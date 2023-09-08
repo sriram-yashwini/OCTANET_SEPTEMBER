@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,200;0,300,0,400;0,500;0,600;1,200&display=swap'); </style>
+@import url('https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,200;0,300,0,400;0,500;0,600;1,200&display=swap');
 
 *{
     padding:0;
@@ -8,7 +8,7 @@
 header{
     width:100%;
     height:100vh;
-    background:url(yash.jpg);
+    background:url('yash.jpg');
     background-size: cover;
     font-family:'poppins',sans-serif;
 }
@@ -19,10 +19,6 @@ nav{
     display:flex;
     justify-content:space-around;
     align-items:center;
-}
-.logo{
-    font-size: 2em;
-    letter-spacing:2px;
 }
 .menu a{
     text-decoration:none;
@@ -53,7 +49,7 @@ nav{
     max-width:650px;
     transform:translate(-50%,-50%);
     text-align:center;
-    color:#4169E1;
+    color:#fff;
 }
 .register a:hover{
     border:1px solid indianred;
@@ -69,7 +65,7 @@ nav{
     text-decoration:none;
     background:indianred;
     padding:10px 20px;
-    color:#4169E1;
+    color:#fff;
     letter-spacing:5px;
 }
 .h-text  a:hover{
